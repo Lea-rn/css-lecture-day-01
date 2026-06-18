@@ -40,24 +40,48 @@
   border-radius: 5px;
 }
 
-.img-container {
-  border: solid 5px rgb(155, 35, 35);
-  width: 20%;
-}
+/* .cover {
+  background-image: url("./images.jfif");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+} */
+
+/* .test {
+  border: solid 2px rgb(14, 155, 49);
+} */
 
 body {
+  margin: 0px;
+}
+.section-one {
+  border: solid 2px red;
+  width: 50%;
+
+  /* margin: 100px; ===> 4 directions */
+  /* margin: 10px 50px; ===> top and bottom ; left and right */
+  /* margin: 10px 20px 30px 40px;  ==> top; right; bottom; left  */
+}
+
+.section-two {
   border: solid 2px green;
+  width: 50%;
+  padding: 10px 20px 30px 40px;
 }
 img {
-  width: 50%;
+  margin-left: 50px;
+
+  padding-top: 100px;
 }
 
 .text-container {
-  border: solid 2px rgb(152, 23, 169);
-  width: 70%;
-}
+  border: solid 2px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
 
-.text {
-  border: solid 2px rgb(169, 23, 45);
-  width: 50%;
+  font-style: normal;
 }
